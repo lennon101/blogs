@@ -37,16 +37,16 @@ Therefore:
 `total voltage = 6v` 
 
 ### Current (amps) requirement: 
-At this stage, I am not aware of the current requirement of these cevices, but a typical AA battery has a supply peak currents of over 2A. But I know just from my own experience that these zigbee devices won't be drawing that much. So lets say approx 1amp max current during peak demands (and that is being very generous). 
+At this stage, I am not aware of the current requirement of these devices, but a typical AA battery has a supply peak currents of over 2A. But I know (just from my own experience) that these zigbee devices won't be drawing that much. So lets say approx 1amp max current during peak demands (and that is being very generous). 
 
 ## Materials Needed
 1. An AC to DC power supply with atleast 6v and 1amp output. A typical looking power supply is pictured below
-2. 
+2. A linear regulator - only needed if you your power supply has an output greater than 6v
+3. A small plastic container to store the linear regulator in (if you need one)
 
 ![image](https://github.com/lennon101/blogs/assets/1709944/98392c22-187b-40c4-8111-9f88e4b1f851)
 
-
-## Step-by-Step Conversion Process
+## Step-by-Step Process
 Follow our detailed guide, breaking down the conversion process into manageable steps. From disassembling the valve to modifying the circuit and assembling the system, we've got you covered.
 
 ### 5.1 Disassembling the Valve
