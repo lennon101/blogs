@@ -40,20 +40,23 @@ Therefore:
 At this stage, I am not aware of the current requirement of these devices, but a typical AA battery has a supply peak currents of over 2A. But I know (just from my own experience) that these zigbee devices won't be drawing that much. So lets say approx 1amp max current during peak demands (and that is being very generous). 
 
 ## Materials Needed
-1. An AC to DC power supply with atleast 6v and 1amp output. A typical looking power supply is pictured below
-2. A linear regulator - only needed if you your power supply has an output greater than 6v
-3. A small plastic container to store the linear regulator in (if you need one)
+1. An AC to DC power supply with atleast 6v and 1amp output. A typical looking power supply is pictured below,
+2. A linear regulator - only needed if you your power supply has an output greater than 6v. A good example is the LM317 Adjustable Voltage Regulator Power Supply (see image below). Just go to AliExpress and search `LM317 Breakout Board`. An example is shown below. 
+3. A small plastic container to store the linear regulator in (if you need one). 
+4. A multimetre to check the voltage 
 
 ![image](https://github.com/lennon101/blogs/assets/1709944/98392c22-187b-40c4-8111-9f88e4b1f851)
 
-## Step-by-Step Process
-Follow our detailed guide, breaking down the conversion process into manageable steps. From disassembling the valve to modifying the circuit and assembling the system, we've got you covered.
+![image](https://github.com/lennon101/blogs/assets/1709944/cb2020f6-52a5-416d-a75a-bd8d5d5f5ef8)
 
-### 5.1 Disassembling the Valve
+## Step-by-Step Process
+
+### 5.1 Disassembling the device
 Begin the conversion process by carefully disassembling the Zigbee irrigation valve. Take note of the existing components and their placements.
 
-### 5.2 Identifying Power Requirements
-Understand the power requirements of the valve to ensure compatibility with the chosen regulated power supply. This step is crucial for a successful conversion.
+### 5.2 wiring diagram
+![image](https://github.com/lennon101/blogs/assets/1709944/d3f62dcc-7176-4edd-811e-4bba564ccdfe)
+
 
 ### 5.3 Selecting a Regulated Power Supply
 Explore different regulated power supply options and select the one that best fits your requirements. Consider factors such as voltage, current, and environmental suitability.
